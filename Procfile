@@ -1,1 +1,1 @@
-web gunicorn the-love-sparks.wsgi
+web gunicorn main.wsgi
