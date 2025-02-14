@@ -55,6 +55,7 @@ INSTALLED_APPS = [
 
     # Apps
     'home',
+    'about',
 ]
 
 MIDDLEWARE = [
@@ -117,7 +118,7 @@ DATABASES = {
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
-PWD_VALIDATION = "django.contrib.auth.password_validation" 
+PWD_VALIDATION = "django.contrib.auth.password_validation"
 
 AUTH_PASSWORD_VALIDATORS = [
     {
