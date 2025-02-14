@@ -39,6 +39,11 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.herokuapp.com",
+    "https://*.gitpod.io"  # Allow any Gitpod workspace
+]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
