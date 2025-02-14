@@ -18,3 +18,4 @@ By using progressive personality/like matching system The app encourages users t
 
 # BUGS
 
+Davids first commit
