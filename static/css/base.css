@@ -1,0 +1,65 @@
+<!-- Google Fonts -->
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Removes all margins & Padding */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* variables for background styles */
+  --clr--primary-bg: #b80d16;
+  --clr--secondary-bg: #810a0c;
+  --clr-accent-colour: #ea1823;
+  --clr-bg-colour-dark: #fffffa;
+  --clar-bg-colour-light: #000000;
+
+  /* variables for text styles */
+  --text-colour-dark: #000000;
+  --text-colour-light: #ffffff;
+  --text-title: "Playfair Display", sans-serif;
+  --text-paragraph: "Montserrat", sans-serif;
+}
+
+/* Homepage */
+
+/* General styles for all hero sections */
+.hero-img {
+  width: 100%;
+  height: 33vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Make images fill their div */
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+/* Heading */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--text-colour-light);
+}
+
+h1 {
+  font-family: var(--text-title);
+}
+
+p {
+  font-family: var(--text-paragraph);
+}

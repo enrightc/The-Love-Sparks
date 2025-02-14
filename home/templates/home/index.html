@@ -1,6 +1,33 @@
-{% extends 'base.html' %}
-{% load static %}
-
-{% block content %}
-    <h1> homepage</h1>
+{% extends 'base.html' %} {% load static %} {% block content %}
+<body>
+  <!-- Main Content -->
+  <main>
+    <div class="hero-img">
+      <img
+        src="../static/images/hero-img1.png"
+        alt="Couple with eyes closed smiling"
+      /><div class="text-overlay">
+        <p>Let people Match, let people</p>
+        <h1>Ignite</h1>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img
+        src="../static/images/hero-img2.png"
+        alt="Couple smiling"
+      />
+      <div class="text-overlay">
+        <h2>Step 1</h2>
+        <h2>Step 2</h2>
+        <h2>Step 3</h2>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img
+        src="../static/images/hero-img3.png"
+        alt="Couple by the sea smiling"
+      />
+    </div>
+  </main>
+</body>
 {% endblock %}
