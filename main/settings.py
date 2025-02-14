@@ -17,7 +17,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 if os.path.exists('env.py'):
-    import env
+    exec(open('env.py').read())
 
 
 # Quick-start development settings - unsuitable for production
@@ -29,8 +29,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['*'] # Allow all - For development only. IMPORTANT change for production
+ALLOWED_HOSTS = ['*']
+# Allow all - For development only. IMPORTANT change for production
 
+# ".herokuapp.com",
+# ".localhost",
+# "*codeinstitute-ide.net",
+# "127.0.0.1",
 
 # Application definition
 
@@ -42,7 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #Apps
+    # Apps
     'home',
 ]
 
@@ -93,18 +98,20 @@ DATABASES = {
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
+PWD_VALIDATION = "django.contrib.auth.password_validation" 
+
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': f"{PWD_VALIDATION}.UserAttributeSimilarityValidator",
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': f"{PWD_VALIDATION}.MinimumLengthValidator",
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': f"{PWD_VALIDATION}.CommonPasswordValidator",
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': f"{PWD_VALIDATION}.NumericPasswordValidator",
     },
 ]
 
