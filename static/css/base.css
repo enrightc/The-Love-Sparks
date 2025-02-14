@@ -1,0 +1,19 @@
+/* Removes all margins & Padding */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+     /* variables for background styles */
+     --clr--primary-bg: #B80D16;
+     --clr--secondary-bg:  #810A0C;
+     --clr-accent-colour: #EA1823;
+     --clr-bg-colour-dark: #fffffa;
+     --clar-bg-colour-light: #000000;
+
+     /* variables for text styles */
+     --text-colour-dark: #000000;
+     --text-colour-light: #ffffff;
+  }
