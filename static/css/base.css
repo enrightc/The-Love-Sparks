@@ -88,6 +88,25 @@
   }
 }
 
+/* About Page */
+#about {
+  color: var(--text-colour-light);
+  font-family: var(--text-paragraph);
+}
+
+#about-header {
+  background-color: #0a0b0d;
+}
+
+#about #header-image{
+  background: url(/static/images/ingite-spark.png) no-repeat center;
+  height: 350px;
+}
+
+
+
+
+
 /* Footer */
 
 #social-links {
