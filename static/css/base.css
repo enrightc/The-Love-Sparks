@@ -59,13 +59,13 @@
 h1 {
   font-family: var(--text-title);
   font-size: 48px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 h2 {
   font-family: var(--text-title);
   font-size: 24px;
-  font-weight: 400px;
+  font-weight: 400;
 }
 
 p  {
@@ -79,13 +79,13 @@ p  {
   /* Header */
   h1 {
     font-size: 96px;
-    font-weight: 500px;
+    font-weight: 500;
   }
 
   h2 {
     font-family: var(--text-title);
     font-size: 32px;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   p {
