@@ -1,7 +1,7 @@
-/* <!-- Google Fonts --> */
+ /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-/* Removes all margins & Padding */
+*/ Removes all margins & Padding */
 * {
   padding: 0;
   margin: 0;
@@ -13,8 +13,8 @@
   --clr--primary-bg: #b80d16;
   --clr--secondary-bg: #810a0c;
   --clr-accent-colour: #ea1823;
-  --clr-bg-colour-dark: #fffffa;
-  --clar-bg-colour-light: #000000;
+  --clr-bg-colour-dark: #000000;
+  --clar-bg-colour-light: #ffffa;
 
   /* variables for text styles */
   --text-colour-dark: #000000;
@@ -34,6 +34,12 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+/* Button styles */
+
+.buttonfont {
+  font-family: var(--text-paragraph);
 }
 
 /* Make images fill their div */
@@ -56,17 +62,28 @@
   color: var(--text-colour-light);
 }
 
-h1 {
+.h1home {
   font-family: var(--text-title);
+  font-size: 48px;
+  font-weight: 500;
 }
 
-p {
+.phome  {
   font-family: var(--text-paragraph);
+  font-size: 16px;
 }
 
-/* About Page */
-#about {
-  background-color: var(--clr--primary-bg);
-  color: var(--text-colour-light);
-}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+  
+  /* Header */
+  h1 {
+    font-size: 96px;
+    font-weight: 500;
+  }
 
+  p {
+    font-family: var(--text-paragraph);
+    font-size: 24px;
+  }
+}
