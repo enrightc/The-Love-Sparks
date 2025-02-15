@@ -94,13 +94,19 @@
   font-family: var(--text-paragraph);
 }
 
-#about-header {
+#about-header, #about-cta {
   background-color: #0a0b0d;
+  color: var(--text-colour-light);
 }
 
 #about #header-image{
   background: url(/static/images/ingite-spark.png) no-repeat center;
   height: 350px;
+}
+
+#about-main-1 {
+  background-color: var(--clr-accent-colour);
+  color: var(--text-colour-light);
 }
 
 
