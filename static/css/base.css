@@ -87,3 +87,17 @@
     font-size: 24px;
   }
 }
+
+/* Footer */
+
+#social-links {
+  display: flex;
+  list-style-type: none;
+  background-color: var(--clar-bg-colour-light);
+  justify-content: center;
+  }
+
+  #social-links i {
+  color: var(--text-colour-dark);
+  margin-right: 10px;
+}
