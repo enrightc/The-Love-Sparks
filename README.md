@@ -7,8 +7,8 @@ APP NAME: Ignite - Highlighting how great matches create sparks
 
 # AIM
 
-To revolutionise online data by prioritising meaningful connections over superficial swiping.
-By using progressive personality/like matching system The app encourages users to engage with potential partners based on compatibility rather than appearance alone.
+To revolutionise online dating by prioritising meaningful connections over superficial swiping.
+By using progressive personality/like matching system the app encourages users to engage with potential partners based on compatibility rather than appearance alone.
 
 # USER STORIES
 
@@ -16,7 +16,7 @@ By using progressive personality/like matching system The app encourages users t
 
 Landing page
 
-- As a first time user: I want to have an overview of what the date app offers (easily grasp the concept of the app) and be able to sign in to get matched.
+- As a first time user, I want to have an overview of what the date app offers (easily grasp the concept of the app) and be able to sign in to get matched.
 
 Registration Form
 
@@ -25,29 +25,29 @@ Registration Form
 
 Email registration / verification
 
-- As a first time user, I want to verify my email so that I can ensure my account is secure
+- As a first time user, I want to verify my email so that I can ensure my account is secure.
 
 ### Returning Users
 
 Login Form
 
-- As a registered user, i want to easily sign in.
+- As a registered user, I want to easily sign in.
 
 Navigation
 
-- As a registered user i want to have easy access to navigate
+- As a registered user, I want to have easy access to navigate
 
 Match Page
 
-- As a registered user, i want to easily find a potential match, continue as long as needed and connect with people who share similar interests so that I can build meaningful friend-/relationships.
+- As a registered user, I want to easily find a potential match, continue as long as needed and connect with people who share similar interests so that I can build meaningful friend-/relationships.
 
 User Dashboard / Profile Settings
 
-- As a registered user, i want to update my profile and preferences if needed so that I can keep my information accurate and relevant.
+- As a registered user, I want to update my profile and preferences if needed so that I can keep my information accurate and relevant.
 
 Security Settings
 
-- As a registered user, i want to manage my privacy settings so that I can control who can see my profile.
+- As a registered user, I want to manage my privacy settings so that I can control who can see my profile.
 
 Filter for potential Matches
 
@@ -55,7 +55,7 @@ Filter for potential Matches
 
 Match Alert
 
-- As a registered user, I want to be informed when I’ve been matched
+- As a registered user, I want to be informed when I’ve been matched.
 
 Profile Details
 
@@ -67,17 +67,17 @@ Chat Page (Active matches section)
 
 Report / Block
 
-- As a registered user, i want to be able to report or block disrespectful users
+- As a registered user, I want to be able to report or block disrespectful users.
 
 ### Admin Users / Moderators
 
 Admin Dashboard
 
-- As an admin, I want to oversee user activity so I can ensure a safe and respectful environment
+- As an admin, I want to oversee user activity so I can ensure a safe and respectful environment.
 
 Show Profile Details
 
-- As an admin, I want to access the user’s profile of and be able to manage it accordingly
+- As an admin, I want to access the user’s profile of and be able to manage it accordingly.
 
 Moderation and Enforcement
 
