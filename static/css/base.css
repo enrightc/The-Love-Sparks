@@ -77,12 +77,12 @@
 @media screen and (min-width: 768px) {
   
   /* Header */
-  h1 {
+  .h1home {
     font-size: 96px;
     font-weight: 500;
   }
 
-  p {
+  .phome {
     font-family: var(--text-paragraph);
     font-size: 24px;
   }
