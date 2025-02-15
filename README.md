@@ -1,22 +1,3 @@
-
-![Python](https://img.shields.io/badge/Python-3.8.5-blue.svg)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)
-![HTML](https://img.shields.io/badge/HTML-5-orange.svg)
-![Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg)
-![Heroku](https://img.shields.io/badge/Heroku-deployed-430098.svg)
-
-TEAM NAME: The Love Sparks -  Because great matches create sparks. 
-APP NAME: Ignite - Highlighting how great matches create sparks
-
-## ![Overview](https://img.shields.io/badge/Overview-Discovery-orange?style=for-the-badge)
-
-**Ingnite** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
-
-## ![AIM](https://img.shields.io/badge/AIM-meaningfulCONNECTIONS-blue?style=for-the-badge)
-To revolutionise online data by prioritising meaningful connections over superficial swiping.
-By using progressive personality/like matching system The app encourages users to engage with potential partners based on compatibility rather than appearance alone.  
-
 ## ![User Stories](https://img.shields.io/badge/User_Stories-Read_More-purple?style=for-the-badge)
 
 ### ![First Time Users](https://img.shields.io/badge/First_Time_Users-Start_Here-green?style=for-the-badge)
@@ -149,9 +130,6 @@ Linkedin: https://www.linkedin.com/in/charlie-enright-54443a46/
 github: https://github.com/DavidRC-projects
 Linkedin: www.linkedin.com/in/david-carr-9a71a1312
 
-![Katarina](photo insert)
-github : https://github.com/kakilian
-LinkedIn : https://www.linkedin.com/in/katarina-kilian-645242313/
 
 ![Iliana](photo insert)
 github: https://github.com/iliana-marquez 
@@ -161,10 +139,3 @@ LinkedIn: https://www.linkedin.com/in/iliana-marquez-3b6795339/
 github: https://github.com/mildred-prog
 LinkedIn:https://www.linkedin.com/in/mildred-aneke-3920241b8/
 
-![Krishna](photo insert)
-github: https://github.com/krishna0890227
-Linkedln: 
-
-![Elvis](photo insert)
-github: https://github.com/Elvisthegreat
-linkedIn: www.linkedin.com/in/elvisblessingeunice-software-dev
