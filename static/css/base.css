@@ -36,6 +36,12 @@
   overflow: hidden;
 }
 
+/* Button styles */
+
+.buttonfont {
+  font-family: var(--text-paragraph);
+}
+
 /* Make images fill their div */
 .hero-img img {
     width: 100%;
@@ -56,19 +62,13 @@
   color: var(--text-colour-light);
 }
 
-h1 {
+.h1home {
   font-family: var(--text-title);
   font-size: 48px;
   font-weight: 500;
 }
 
-h2 {
-  font-family: var(--text-title);
-  font-size: 24px;
-  font-weight: 400;
-}
-
-p  {
+.phome  {
   font-family: var(--text-paragraph);
   font-size: 16px;
 }
@@ -80,12 +80,6 @@ p  {
   h1 {
     font-size: 96px;
     font-weight: 500;
-  }
-
-  h2 {
-    font-family: var(--text-title);
-    font-size: 32px;
-    font-weight: 400;
   }
 
   p {
