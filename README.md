@@ -179,22 +179,15 @@ Moderation and Enforcement
 
 
 ## [![Meet the Team](https://img.shields.io/static/v1?label=Meet_the_Team&message=Know_Us&color=0078D4&style=flat-square)](https://yourlink.com)
-![Charlie](photo insert) 
-github: enrightc
-Linkedin: https://www.linkedin.com/in/charlie-enright-54443a46/
 
-![David](photo insert)
-github: https://github.com/DavidRC-projects
-Linkedin: www.linkedin.com/in/david-carr-9a71a1312
+[![GitHub](https://img.shields.io/badge/GitHub-enrightc-181717?style=for-the-badge&logo=github)](https://github.com/enrightc)[![Charlie Enright's LinkedIn](https://img.shields.io/badge/LinkedIn-Charlie_Enright-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/charlie-enright-54443a46/)
 
-
-![Iliana](photo insert)
-github: https://github.com/iliana-marquez 
-LinkedIn: https://www.linkedin.com/in/iliana-marquez-3b6795339/
-
-![Mildred](photo insert)
-github: https://github.com/mildred-prog
-LinkedIn:https://www.linkedin.com/in/mildred-aneke-3920241b8/
+[![Kakilian's GitHub](https://img.shields.io/badge/GitHub-Kakilian-181717?style=for-the-badge&logo=github)](https://github.com/kakilian)[![Katarina Kilian's LinkedIn](https://img.shields.io/badge/LinkedIn-Katarina_Kilian-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katarina-kilian-645242313/)
+[![DavidRC-projects' GitHub](https://img.shields.io/badge/GitHub-DavidRC--projects-181717?style=for-the-badge&logo=github)](https://github.com/DavidRC-projects)[![David Carr's LinkedIn](https://img.shields.io/badge/LinkedIn-David_Carr-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-carr-9a71a1312/)
+[![Iliana Marquez's GitHub](https://img.shields.io/badge/GitHub-Iliana--Marquez-181717?style=for-the-badge&logo=github)](https://github.com/iliana-marquez)[![Iliana Marquez's LinkedIn](https://img.shields.io/badge/LinkedIn-Iliana_Marquez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iliana-marquez-3b6795339/)
+[![Mildred-prog's GitHub](https://img.shields.io/badge/GitHub-Mildred--prog-181717?style=for-the-badge&logo=github)](https://github.com/mildred-prog)[![Mildred Aneke's LinkedIn](https://img.shields.io/badge/LinkedIn-Mildred_Aneke-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mildred-aneke-3920241b8/)
+[![Elvisthegreat's GitHub](https://img.shields.io/badge/GitHub-Elvisthegreat-181717?style=for-the-badge&logo=github)](https://github.com/Elvisthegreat)[![Elvis Blessing Eunice's LinkedIn](https://img.shields.io/badge/LinkedIn-Elvis_Blessing-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvisblessingeunice-software-dev/)
+[![Krishna0890227's GitHub](https://img.shields.io/badge/GitHub-Krishna0890227-181717?style=for-the-badge&logo=github)](https://github.com/krishna0890227)
 
 
 
