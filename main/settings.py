@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import os
 from pathlib import Path
 import dj_database_url
-import django_heroku
+# import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -64,7 +64,7 @@ INSTALLED_APPS = [
     'home',
     'about',
     'registration',
-    'find_a_match'
+    'find_a_match',
 ]
 
 MIDDLEWARE = [
@@ -170,4 +170,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Activate Django-Heroku.
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
