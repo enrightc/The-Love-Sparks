@@ -1,3 +1,15 @@
+TEAM NAME: The Love Sparks - Because great matches create sparks.
+APP NAME: Ignite - Highlighting how great matches create sparks
+
+# OVERVIEW
+
+**Ignite** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
+
+# AIM
+
+To revolutionize online dating by prioritizing meaningful connections over superficial swiping.
+By using progressive personality/like matching system the app encourages users to engage with potential partners based on compatibility rather than appearance alone.
+
 ## ![User Stories](https://img.shields.io/badge/User_Stories-Read_More-purple?style=for-the-badge)
 
 ### ![First Time Users](https://img.shields.io/badge/First_Time_Users-Start_Here-green?style=for-the-badge)
@@ -13,22 +25,67 @@
 ### Registration Form
 
 - As a first time user, I want to easily register and create a profile (account) so that I can start searching for matches.
-  * Acceptance Criteria: 
-      * Registration Form
-      * Inputs to write my Personal Details
-      * First Name, Last Name, Alias, Location, Birthdate, Email, Password (password confirmation) 
-      * Checkboxes / Select inputs  to select my preferences
-      * Simple quiz to establish personality/likes/hobbies (three questions?)
-      * Questions with checkbox to select answers
-
-### Email registration / verification
-
-- As a first time user, I want to verify my email so that I can ensure my account is secure
-    * Acceptance Criteria:
-      * Send email with link to verify or authenticate account.
-      * After clicking link in email you get access to your new match app profile and matches
 
 
+Email registration / verification
+
+- As a first time user, I want to verify my email so that I can ensure my account is secure.
+
+### Returning Users
+
+Login Form
+
+- As a registered user, I want to easily sign in.
+
+Navigation
+
+- As a registered user, I want to have easy access to navigate
+
+Match Page
+
+- As a registered user, I want to easily find a potential match, continue as long as needed and connect with people who share similar interests so that I can build meaningful friend-/relationships.
+
+User Dashboard / Profile Settings
+
+- As a registered user, I want to update my profile and preferences if needed so that I can keep my information accurate and relevant.
+
+Security Settings
+
+- As a registered user, I want to manage my privacy settings so that I can control who can see my profile.
+
+Filter for potential Matches
+
+- As a registered user, I want to filter my matches based on my preferences so that I can find suitable partners.
+
+Match Alert
+
+- As a registered user, I want to be informed when I have a match so that I can give a timely response.
+
+Profile Details
+
+- As a registered user, I want to view my match’s profile so I can get idea of the person and access it whenever needed to remember key features for future conversations in the chat.
+
+Chat Page (Active matches section)
+
+- As a registered user, I want to send and receive messages securely so that I can communicate with my matches and keep track of conversations.
+
+Report / Block
+
+- As a registered user, I want to be able to report or block disrespectful users so that I can have control of who interacts with me.
+
+### Admin Users / Moderators
+
+Admin Dashboard
+
+- As an admin, I want to oversee user activities so that I can ensure a safe and respectful environment.
+
+Show Profile Details
+
+- As an admin, I want to access the user’s profile so that I can manage it accordingly.
+
+Moderation and Enforcement
+
+- As an admin, I want to take appropriate action on users who violate rules, so I can protect the reputation of the app and keep a safer environment for other users.
 
 ## ![Features](https://img.shields.io/badge/Features-Explore-blueviolet?style=for-the-badge)
 
@@ -138,4 +195,7 @@ LinkedIn: https://www.linkedin.com/in/iliana-marquez-3b6795339/
 ![Mildred](photo insert)
 github: https://github.com/mildred-prog
 LinkedIn:https://www.linkedin.com/in/mildred-aneke-3920241b8/
+
+
+
 
