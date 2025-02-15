@@ -65,6 +65,7 @@ INSTALLED_APPS = [
     'about',
     'registration',
     'matching',
+    'find_a_match',
 ]
 
 MIDDLEWARE = [

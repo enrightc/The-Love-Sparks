@@ -23,5 +23,5 @@ urlpatterns = [
     path('', include('home.urls')),
     path('about/', include('about.urls')),
     path('registration/', include('registration.urls')),
-    path('find_a_match/', include('find_a_match.urls')), 
+    path('find_a_match/', include('find_a_match.urls')),
 ]
