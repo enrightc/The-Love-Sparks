@@ -59,13 +59,13 @@
 h1 {
   font-family: var(--text-title);
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 500px;
 }
 
 h2 {
   font-family: var(--text-title);
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 400px;
 }
 
 p  {
@@ -73,11 +73,6 @@ p  {
   font-size: 16px;
 }
 
-ol {
-  font-family: var(--text-paragraph);
-  font-size: 16px;
-  list-style: none;
-}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
@@ -89,10 +84,10 @@ ol {
   h2 {
     font-family: var(--text-title);
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 400px;
   }
 
-  p, ol  {
+  p {
     font-family: var(--text-paragraph);
     font-size: 24px;
   }
