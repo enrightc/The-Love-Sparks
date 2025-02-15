@@ -94,6 +94,11 @@
   font-family: var(--text-paragraph);
 }
 
+#about h1, 
+#about h2 {
+  font-family: var(--text-title) !important;
+}
+
 #about-header, #about-cta {
   background-color: #0a0b0d;
   color: var(--text-colour-light);
@@ -107,6 +112,21 @@
 #about-main-1 {
   background-color: var(--clr-accent-colour);
   color: var(--text-colour-light);
+}
+
+#about-main-2 {
+  background-color: var(--clr-bg-colour-dark);
+  color: var(--text-colour-light);
+}
+
+#about-main-2 i,
+#about-main-2 h1 {
+  color: var(--clr-accent-colour);
+}
+
+#about-cta {
+  background-color: var(--text-colour-light);
+  color: var(--clr-bg-colour-dark);
 }
 
 
