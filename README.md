@@ -10,7 +10,7 @@ TEAM NAME: The Love Sparks -  Because great matches create sparks.
 APP NAME: Ignite - Highlighting how great matches create sparks
 
 ## ![Overview](https://img.shields.io/badge/Overview-Discovery-orange?style=for-the-badge)
-🔗 Example:
+
 **Ingnite** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
 
 ## ![AIM](https://img.shields.io/badge/AIM-meaningfulCONNECTIONS-blue?style=for-the-badge)
