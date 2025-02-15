@@ -1,7 +1,6 @@
 from django.urls import path
-from .views import find_a_match
+from . import views
 
 urlpatterns = [
     path('', views.find_a_match, name='find_a_match'),
 ]
-
