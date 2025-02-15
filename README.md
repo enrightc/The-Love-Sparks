@@ -39,7 +39,7 @@ Login Form
 
 Navigation
 
-- As a registered user, I want to have easy access to navigate
+- As a registered user, I want to have easy access to navigate.
 
 Match Page
 
