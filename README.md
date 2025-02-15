@@ -80,23 +80,30 @@ By using progressive personality/like matching system The app encourages users t
 - Python 3.8.5 ![Python](https://img.shields.io/badge/Python-3.8.5-blue.svg)
 - JavaScript ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)
 
-## Requirements
-- Django Pillow ![Django Pillow](https://img.shields.io/badge/Django-Pillow-0.4.6-red.svg)
-- Gitpod ![Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)
-- GitHub ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg)
-- Heroku ![Heroku](https://img.shields.io/badge/Deployed%20on-Heroku-430098?style=for-the-badge&logo=heroku)
--asgiref==3.8.1
-dj-database-url==2.3.0
-Django==5.1.6
-django-allauth==65.4.1
-django-heroku==0.3.1
-gunicorn==23.0.0
-packaging==24.2
-psycopg2==2.9.10
-sqlparse==0.5.3
-typing_extensions==4.12.2
-tzdata==2025.1
-whitenoise==6.9.0
+### Frontend 
+![HTML](https://img.shields.io/badge/Frontend-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/Frontend-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Frontend-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### Backend
+![Django](https://img.shields.io/badge/Backend-Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+
+
+## Requirements.txt
+
+![asgiref](https://img.shields.io/badge/asgiref-3.8.1-blue?style=for-the-badge)
+![dj-database-url](https://img.shields.io/badge/dj--database--url-2.3.0-blue?style=for-the-badge)
+![Django](https://img.shields.io/badge/Django-5.1.6-green?style=for-the-badge)
+![django-allauth](https://img.shields.io/badge/django--allauth-65.4.1-green?style=for-the-badge)
+![django-heroku](https://img.shields.io/badge/django--heroku-0.3.1-green?style=for-the-badge)
+![gunicorn](https://img.shields.io/badge/gunicorn-23.0.0-red?style=for-the-badge)
+![packaging](https://img.shields.io/badge/packaging-24.2-red?style=for-the-badge)
+![psycopg2](https://img.shields.io/badge/psycopg2-2.9.10-orange?style=for-the-badge)
+![sqlparse](https://img.shields.io/badge/sqlparse-0.5.3-orange?style=for-the-badge)
+![typing_extensions](https://img.shields.io/badge/typing__extensions-4.12.2-lightgrey?style=for-the-badge)
+![tzdata](https://img.shields.io/badge/tzdata-2025.1-lightgrey?style=for-the-badge)
+![whitenoise](https://img.shields.io/badge/whitenoise-6.9.0-lightgrey?style=for-the-badge)
 
 ## Deployment ![Deployment](https://img.shields.io/badge/Deployment-Ready-success?style=for-the-badge)
 
