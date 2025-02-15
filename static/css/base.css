@@ -75,6 +75,7 @@ p  {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+  
   /* Header */
   h1 {
     font-size: 96px;
