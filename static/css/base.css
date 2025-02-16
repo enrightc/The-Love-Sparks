@@ -55,7 +55,7 @@ p {
 
 .buttonfont {
   font-family: var(--text-paragraph);
-  font-size: 1.5rem;
+  font-size: 0.5rem;
 }
 
 /* Make images fill their div */
@@ -87,29 +87,6 @@ p {
 #phome  {
   font-family: var(--text-paragraph);
   font-size: 16px;
-}
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-  
-  /* Header */
-<<<<<<< HEAD
-  .h1home {
-=======
-  #h1home {
->>>>>>> main
-    font-size: 96px;
-    font-weight: 500;
-  }
-
-<<<<<<< HEAD
-  .phome {
-=======
-  #phome {
->>>>>>> main
-    font-family: var(--text-paragraph);
-    font-size: 24px;
-  }
 }
 
 /* About Page */
@@ -157,10 +134,6 @@ p {
   color: var(--clr-bg-colour-dark);
 }
 
-
-
-
-
 /* Footer */
 
 #social-links {
@@ -173,10 +146,26 @@ p {
   #social-links i {
   color: var(--text-colour-dark);
   margin-right: 10px;
-<<<<<<< HEAD
   margin-top: 20px;
-  font-size: large;
-=======
   font-size: 2.5rem;
->>>>>>> main
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+  
+  /* Header */
+  #h1home {
+    font-size: 96px;
+    font-weight: 500;
+  }
+
+  #phome {
+    font-family: var(--text-paragraph);
+    font-size: 24px;
+  }
+
+  .buttonfont {
+    font-size: 1rem;
+  }
+}
+
