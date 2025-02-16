@@ -164,7 +164,7 @@ p {
 #match-page .stack {
   position: relative;
   max-width: 100%;
-  min-height: 75vh;
+  min-height: 50vh;
   border: #ffffff solid 1px;
 }
 
@@ -216,21 +216,21 @@ p {
 @media screen and (min-width: 576px) {
   #match-page .stack {
     max-width: 90%;
-    /* height: 70vh; */
+    height: 70vh;
   }
 }
 
 @media screen and (min-width: 768px) {
   #match-page .stack {
     max-width: 80%;
-    /* height: 70vh; */
+    height: 75vh;
   }
 }
 
 @media screen and (min-width: 992px) {
   #match-page .stack {
     max-width: 60%;
-    /* height: 70vh; */
+    height: vh;
   }
 }
 
