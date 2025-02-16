@@ -1,4 +1,6 @@
-{% extends 'base.html' %} {% load static %} {% block content %}
+{% extends 'base.html' %} {% load static %} 
+
+{% block content %}
 <body>
   <!-- Main Content -->
   <main>
@@ -10,29 +12,28 @@
       <div class="text-overlay">
         <p id="phome">Let people Match, let people</p>
         <h1 id="h1home">Ignite</h1>
-    </div>
+      </div>
     </div>
     <div class="hero-img">
-      <img
-        src="../static/images/hero-img2.png"
-        alt="Couple smiling"
-      />
-      <div id="carouselExampleAutoplaying" class="carousel slide text-overlay" data-bs-ride="carousel" data-bs-interval="2000">
+      <img src="../static/images/hero-img2.png" alt="Couple smiling" />
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide text-overlay"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
-           <p>Register</p>
+            <p>Register</p>
           </div>
           <div class="carousel-item">
             <p>Discover your Match</p>
           </div>
           <div class="carousel-item">
-           <p>Connect with your Match!</p>
+            <p>Connect with your Match!</p>
           </div>
         </div>
-        <div>
-            <a href="signup.html" class="btn btn-dark buttonfont me-2">Join now</a>
-            <a href="login.html" class="btn btn-dark buttonfont me-2">Login</a>
-            <a href="about.html" class="btn btn-dark buttonfont">About</a>
+
         </div>
       </div>
     </div>
@@ -45,3 +46,4 @@
   </main>
 </body>
 {% endblock %}
+
