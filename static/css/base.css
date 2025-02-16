@@ -163,8 +163,9 @@ p {
 /* Category Container (Fixed Height) */
 #match-page .stack {
   position: relative;
-  width: 85vw;
-  height: 80vh;
+  width: 100%;
+  height: 70vh;
+  border: #ffffff solid 1px;
 }
 
 #match-page .category {
@@ -176,7 +177,7 @@ p {
 }
 
 #match-page .category img {
-  width: 85vw;
+  width: 100%;
   border-radius: inherit;
 }
 
@@ -205,9 +206,46 @@ p {
 
 #match-page .action-buttons button {
   z-index: 5;
+  font-size: 1rem;
 }
 
+/* Media Queries Match Page */
+@media screen and (min-width: 327px) {
+  
+  
+}
 
+@media screen and (min-width: 768px) {
+  #match-page .stack {
+    width: 100% ;
+    height: 75vh;
+  }
+
+  #match-page .category {
+    transform: translateY(25%) scale(1) rotate(-2deg);
+  }
+
+  /* When revealed, move up */
+  #match-page .revealed {
+    transform: translateY(26%) scale(1) rotate(2.5deg);
+  }
+  
+  /* Adjust Stacking Effect */
+  #match-page .stacked {
+    transform: translateY(27%) rotate(-4deg);
+  } 
+  
+  /* Ensure Top Card is Above */
+  #match-page .revealed:not(:first-child) {
+    transform: translateY(28%) scale(1) rotate(-1deg);
+  }
+}
+@media screen and (min-width: 992px) {
+ 
+}
+@media screen and (min-width: 1200px) {
+ 
+}
 
 
 /* Footer */
@@ -222,6 +260,6 @@ p {
   #social-links i {
   color: var(--text-colour-dark);
   margin-right: 10px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 1rem
 }
