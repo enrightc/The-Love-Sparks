@@ -59,17 +59,21 @@ INSTALLED_APPS = [
     'allauth.account',
     # Optional -- requires install using `django-allauth[socialacocunt]`.
     'allauth.socialaccount',  # copied end
+    'django_extensions',
 
     # Apps
     'home',
     'about',
     'registration',
     'find_a_match',
+    'accounts',
 
     # Other
     'crispy_forms',
     'crispy_bootstrap5',
 ]
+
+AUTH_USER_MODEL = "accounts.CustomUser"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -124,7 +128,7 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 
-ACCOUNT_LOGIN_METHODS = {"email"}
+ACCOUNT_AUTHENTICATION_METHOD = "email"
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
@@ -132,6 +136,11 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = "/accounts/login/"
 LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
+
+ACCOUNT_SIGNUP_REDIRECT_URL = "/"
+ACCOUNT_FORMS = {
+    "signup": "accounts.forms.CustomUserCreationForm",
+}
 
 
 # Database
