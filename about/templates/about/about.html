@@ -1,47 +1,104 @@
 {% extends 'base.html' %}
 {% load static %}
 
+
 {% block content %}
+{% include 'includes/navbar.html' %}
 
 <!-- About -->
 <div id="about">
 
 <!-- Header Section -->
 <div class="container-fluid" id="about-header">
-    <div class="row">
-        <div class="col-12 col-xl-6">Find Your Spark & Ignite New Connections</div>
-        <div class="col-12 col-xl-6">Photos Collage</div>
-        <div class="col-12 col-xl-6">Express yourself, connect with others, and ignite something real.</div>
+    <div class="row p-3 text-center align-items-center"> 
+        <div class="col-md-8">
+            <h1 class="p-1">Find Your Spark & <br> Ignite New Connections</h1>
+            <p class="p-1">Express yourself, connect with others, and ignite something real.</p>
+        </div>
+        <div class="col-md-4" id="header-image"></div>
+        </div>
     </div>
 </div>
 
 <!-- Main Section  -->
 <section class="container-fluid" id="about-main-1">
+
     <div class="row">
-        <div class="col-12">Why Igninte?</div>
-        <div class="col-12 col-md-6 col-xl-4">Match based on spark</div>
-        <div class="col-12 col-md-6 col-xl-4">Pogressive matching</div>
-        <div class="col-12 col-md-6 col-xl-4">Inclusive and safe</div>
-    </div>
+        <div class="col-12">Why Iginte?</div>
+        <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+
+    <div class="row p-5 align-items-center">
+        <div class="col-12">
+            <h1 class="pb-3">Why Ignite?</h1>    
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card mb-3">
+
+                <div class="card-body text-center">
+                  <h1 class="card-title"><i class="fa-solid fa-fire"></i></h1>
+                  <h2 class="card-title">Match based on spark</h2>
+                  <p class="card-text">Discover people who align with your personality, interests, and values—not just their looks.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card mb-3">
+                <div class="card-body text-center">
+                  <h1 class="card-title"><i class="fa-solid fa-spinner"></i></h1>
+                  <h2 class="card-title px-4">Progressive matching</h2>
+                  <p class="card-text">Gradually reveal traits & personality before the full profile is shown. It's all about compatibility, not just attraction.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card mb-3">
+                <div class="card-body text-center">
+                  <h1 class="card-title"><i class="fa-solid fa-people-roof"></i></h1>
+                  <h2 class="card-title px-4">Inclusive and safe</h2>
+                  <p class="card-text">Whomever you're looking for, we provide a judgment-free space where you can just be yourself.</p>
+                </div>
+              </div>
+        </div>
 </section>
 
 <section class="container-fluid" id="about-main-2">
-    <div class="row">
-        <div class="col-12">How it works</div>
-        <div class="col-12 col-md-6 col-xl-4">Step1</div>
-        <div class="col-12 col-md-6 col-xl-4">Step2</div>
-        <div class="col-12 col-md-6 col-xl-4">Step3</div>
+    <div class="row p-5">
+        <div class="col-12 text-center pb-3">
+            <h1>How it works</h1>
+        </div>
+        <div class="col-12 col-lg-4 d-flex flex-row align-items-center justify-content-start justify-content-lg-center">
+            <h2 class="p-4"><i class="fa-solid fa-hand-point-up"></i></h2>
+            <p>Sign in and complete your personality quiz.</p>
+        </div>
+        <div class="col-12 col-lg-4 d-flex flex-row align-items-center justify-content-start justify-content-lg-center">
+            <h2 class="p-4"><i class="fa-solid fa-hand-peace"></i></h2>
+            <p>Discover potential matches, one trait at a time.</p>
+        </div>
+        <div class="col-12 col-lg-4 d-flex flex-row align-items-center justify-content-start justify-content-lg-center">
+            <h2 class="p-4"><i class="fa-solid fa-thumbs-up"></i></h2>
+            <p>Ignite the chat and watch the sparks fly!</p>
+        </div>
     </div>
 </section>
 
 <!-- CTA Section -->
 <section class="container-fluid" id="about-cta">
-    <div class="row">
-        <div class="col-12">Ready to Ignite?</div>
-        <div class="col-12">Signup</div>
-        <div class="col-12">Text</div>
+    <div class="row text-center p-5">
+        <div class="col-12 p-2">
+            <h1>Ready to Ignite?</h1>
+        </div>
+        <div class="col-12">
+            <p>Whether it's love, friendship or a new connection, let us help you ignite something meaningful.</p>
+        </div>
+        <div class="col-12 p-2">
+            <a href="signup.html" class="btn btn-dark buttonfont me-2">Join now</a>
+            <a href="login.html" class="btn btn-dark buttonfont me-2">Login</a>
+        </div>
     </div>
 </section>
+
+{% include 'includes/footer.html' %}
 
 </div>
 {% endblock %}
