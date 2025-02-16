@@ -1,17 +1,15 @@
-{% extends 'base.html' %}
-{% load static %}
+{% extends "base.html" %}
+{% load allauth i18n %}
 
-
-{% block content %}
-{% include 'includes/navbar.html' %}
+{% block title %}{% trans "Sign In" %}{% endblock %}
 
 {% block content %}
+
 <div class="container text-center">
   <h1>{% trans "Sign In" %}</h1>
 
-  <p>{% blocktrans %}If you have not created an account yet, then please
-  <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
-
+  {% url 'account_signup' as signup_url %}
+  <p>{% blocktrans with signup_url=signup_url %}If you have not created an account yet, then please <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
 
   <form class="form p-2" method="POST" action="{% url 'account_login' %}">
     {% csrf_token %}
