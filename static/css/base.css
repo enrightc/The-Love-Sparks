@@ -134,6 +134,98 @@ p {
   color: var(--clr-bg-colour-dark);
 }
 
+/* Match Page (find_a_match) */
+#match-page {
+  background-color: var(--clr-accent-colour);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Category Container (Fixed Height) */
+#match-page .stack {
+  position: relative;
+  max-width: 100%;
+  min-height: 50vh;
+  border: #ffffff solid 1px;
+}
+
+#match-page .category {
+  position: absolute;
+  transform: translateY(1%) scale(1) rotate(-2deg);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.594);
+  transition: all 0.4s ease-in-out;
+}
+
+#match-page .category img {
+  max-width: 100%;
+  border-radius: inherit;
+  max-height: 100%;
+  object-fit: cover; /* Ensures image fills the space */
+  border-radius: inherit;
+}
+
+/* Initially Hidden Cards */
+#match-page .hidden {
+  z-index: 0;
+}
+
+/* When revealed, move up */
+#match-page .revealed {
+  transform: translateY(1%) scale(1) rotate(2.5deg);
+  z-index: 2 !important;
+}
+
+/* Adjust Stacking Effect */
+#match-page .stacked {
+  transform: translateY(2%) rotate(-4deg);
+  z-index: 3 !important;
+} 
+
+/* Ensure Top Card is Above */
+#match-page .revealed:not(:first-child) {
+  transform: translateY(3%) scale(1) rotate(-1deg);
+  z-index: 4 !important;
+} 
+
+#match-page .action-buttons button {
+  z-index: 5;
+  font-size: 1rem;
+}
+
+/* Media Queries Match Page */
+@media screen and (min-width: 576px) {
+  #match-page .stack {
+    max-width: 90%;
+    height: 70vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #match-page .stack {
+    max-width: 80%;
+    height: 75vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #match-page .stack {
+    max-width: 60%;
+    height: vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #match-page .stack {
+    max-width: 50%;
+    /* height: 70vh; */
+  }
+}
+
 /* Footer */
 
 #social-links {
