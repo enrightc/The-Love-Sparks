@@ -1,11 +1,19 @@
-TEAM NAME: The Love Sparks - Because great matches create sparks.
+
+![Python](https://img.shields.io/badge/Python-3.8.5-blue.svg)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)
+![HTML](https://img.shields.io/badge/HTML-5-orange.svg)
+![Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg)
+![Heroku](https://img.shields.io/badge/Heroku-deployed-430098.svg)
+
+TEAM NAME: The Love Sparks -  Because great matches create sparks. 
 APP NAME: Ignite - Highlighting how great matches create sparks
 
-# OVERVIEW
+## ![Overview](https://img.shields.io/badge/Overview-Discovery-orange?style=for-the-badge)
 
-**Ignite** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
+**Ingnite** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
 
-# AIM
+## ![AIM](https://img.shields.io/badge/AIM-meaningfulCONNECTIONS-blue?style=for-the-badge)
 
 To revolutionize online dating by prioritizing meaningful connections over superficial swiping.
 By using progressive personality/like matching system the app encourages users to engage with potential partners based on compatibility rather than appearance alone.
@@ -18,74 +26,42 @@ By using progressive personality/like matching system the app encourages users t
 
 - As a first time user: I want to have an overview of what the date app offers (easily grasp the concept of the app) and be able to sign in to get matched.
   * Acceptance Criteria:
-      * Landing page with a clear overview for first time users
-      * Button to sign in (link to registration form)
-      * About link 
+      * Landing page with a clear overview for first time users.
+      * Button to sign in (link to registration form).
+      * About link.
 
 ### Registration Form
 
 - As a first time user, I want to easily register and create a profile (account) so that I can start searching for matches.
+  * Acceptance Criteria: 
+      * Registration Form.
+      * Inputs to write my Personal Details.
+      * First Name, Last Name, Alias, Location, Birthdate, Email, Password (password confirmation).
+      * Checkboxes / Select inputs  to select my preferences.
+      * Simple quiz to establish personality/likes/hobbies (three questions?).
+      * Questions with checkbox to select answers.
 
-
-Email registration / verification
+### Email registration / verification
 
 - As a first time user, I want to verify my email so that I can ensure my account is secure.
+    * Acceptance Criteria:
+      * Send email with link to verify or authenticate account.
+      * After clicking link in email you get access to your new match app profile and matches.
 
-### Returning Users
+ * Acceptance Criteria: 
+      * Registration Form
+      * Inputs to write my Personal Details
+      * First Name, Last Name, Alias, Location, Birthdate, Email, Password (password confirmation) 
+      * Checkboxes / Select inputs  to select my preferences
+      * Simple quiz to establish personality/likes/hobbies (three questions?)
+      * Questions with checkbox to select answers
 
-Login Form
+### Email registration / verification
 
-- As a registered user, I want to easily sign in.
-
-Navigation
-
-- As a registered user, I want to have easy access to navigate.
-
-Match Page
-
-- As a registered user, I want to easily find a potential match, continue as long as needed and connect with people who share similar interests so that I can build meaningful friend-/relationships.
-
-User Dashboard / Profile Settings
-
-- As a registered user, I want to update my profile and preferences if needed so that I can keep my information accurate and relevant.
-
-Security Settings
-
-- As a registered user, I want to manage my privacy settings so that I can control who can see my profile.
-
-Filter for potential Matches
-
-- As a registered user, I want to filter my matches based on my preferences so that I can find suitable partners.
-
-Match Alert
-
-- As a registered user, I want to be informed when I have a match so that I can give a timely response.
-
-Profile Details
-
-- As a registered user, I want to view my match’s profile so I can get idea of the person and access it whenever needed to remember key features for future conversations in the chat.
-
-Chat Page (Active matches section)
-
-- As a registered user, I want to send and receive messages securely so that I can communicate with my matches and keep track of conversations.
-
-Report / Block
-
-- As a registered user, I want to be able to report or block disrespectful users so that I can have control of who interacts with me.
-
-### Admin Users / Moderators
-
-Admin Dashboard
-
-- As an admin, I want to oversee user activities so that I can ensure a safe and respectful environment.
-
-Show Profile Details
-
-- As an admin, I want to access the user’s profile so that I can manage it accordingly.
-
-Moderation and Enforcement
-
-- As an admin, I want to take appropriate action on users who violate rules, so I can protect the reputation of the app and keep a safer environment for other users.
+- As a first time user, I want to verify my email so that I can ensure my account is secure
+    * Acceptance Criteria:
+      * Send email with link to verify or authenticate account.
+      * After clicking link in email you get access to your new match app profile and matches
 
 ## ![Features](https://img.shields.io/badge/Features-Explore-blueviolet?style=for-the-badge)
 
