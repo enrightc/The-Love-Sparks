@@ -163,21 +163,24 @@ p {
 /* Category Container (Fixed Height) */
 #match-page .stack {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: 70vh;
   border: #ffffff solid 1px;
 }
 
 #match-page .category {
   position: absolute;
-  transform: translateY(50%) scale(1) rotate(-2deg);
+  transform: translateY(1%) scale(1) rotate(-2deg);
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.594);
   transition: all 0.4s ease-in-out;
 }
 
 #match-page .category img {
-  width: 100%;
+  max-width: 100%;
+  border-radius: inherit;
+  max-height: 100%;
+  object-fit: cover; /* Ensures image fills the space */
   border-radius: inherit;
 }
 
@@ -188,19 +191,19 @@ p {
 
 /* When revealed, move up */
 #match-page .revealed {
-  transform: translateY(51%) scale(1) rotate(2.5deg);
+  transform: translateY(1%) scale(1) rotate(2.5deg);
   z-index: 2 !important;
 }
 
 /* Adjust Stacking Effect */
 #match-page .stacked {
-  transform: translateY(52%) rotate(-4deg);
+  transform: translateY(2%) rotate(-4deg);
   z-index: 3 !important;
 } 
 
 /* Ensure Top Card is Above */
 #match-page .revealed:not(:first-child) {
-  transform: translateY(51%) scale(1) rotate(-1deg);
+  transform: translateY(3%) scale(1) rotate(-1deg);
   z-index: 4 !important;
 } 
 
@@ -210,42 +213,34 @@ p {
 }
 
 /* Media Queries Match Page */
-@media screen and (min-width: 327px) {
-  
-  
+@media screen and (min-width: 576px) {
+  #match-page .stack {
+    max-width: 90%;
+    height: 70vh;
+  }
 }
 
 @media screen and (min-width: 768px) {
   #match-page .stack {
-    width: 100% ;
-    height: 75vh;
-  }
-
-  #match-page .category {
-    transform: translateY(25%) scale(1) rotate(-2deg);
-  }
-
-  /* When revealed, move up */
-  #match-page .revealed {
-    transform: translateY(26%) scale(1) rotate(2.5deg);
-  }
-  
-  /* Adjust Stacking Effect */
-  #match-page .stacked {
-    transform: translateY(27%) rotate(-4deg);
-  } 
-  
-  /* Ensure Top Card is Above */
-  #match-page .revealed:not(:first-child) {
-    transform: translateY(28%) scale(1) rotate(-1deg);
+    max-width: 80%;
+    height: 70vh;
   }
 }
+
 @media screen and (min-width: 992px) {
- 
+  #match-page .stack {
+    max-width: 60%;
+    height: 70vh;
+  }
 }
+
 @media screen and (min-width: 1200px) {
- 
+  #match-page .stack {
+    max-width: 50%;
+    height: 70vh;
+  }
 }
+
 
 
 /* Footer */
