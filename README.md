@@ -5,6 +5,12 @@
 ![Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg)
 ![Heroku](https://img.shields.io/badge/Heroku-deployed-430098.svg)
+![crispy-bootstrap5](https://img.shields.io/badge/crispy--bootstrap5-2024.10-blue?style=for-the-badge)
+![django-allauth](https://img.shields.io/badge/django--allauth-65.4.1-green?style=for-the-badge)
+![django-crispy-forms](https://img.shields.io/badge/django--crispy--forms-2.3-green?style=for-the-badge)
+![django-extensions](https://img.shields.io/badge/django--extensions-3.2.3-green?style=for-the-badge)
+![django-heroku](https://img.shields.io/badge/django--heroku-0.3.1-green?style=for-the-badge)
+
 
 TEAM NAME: The Love Sparks -  Because great matches create sparks. 
 APP NAME: Ignite - Highlighting how great matches create sparks
@@ -101,7 +107,27 @@ By using progressive personality/like matching system the app encourages users t
 ![Python](https://img.shields.io/badge/Frontend-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### Backend
+![asgiref](https://img.shields.io/badge/asgiref-3.8.1-blue?style=for-the-badge)
 ![Django](https://img.shields.io/badge/Backend-Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![django-allauth](https://img.shields.io/badge/django--allauth-65.4.1-green?style=for-the-badge)
+![django-crispy-forms](https://img.shields.io/badge/django--crispy--forms-2.3-green?style=for-the-badge)
+![django-extensions](https://img.shields.io/badge/django--extensions-3.2.3-green?style=for-the-badge)
+![django-heroku](https://img.shields.io/badge/django--heroku-0.3.1-green?style=for-the-badge)
+![crispy-bootstrap5](https://img.shields.io/badge/crispy--bootstrap5-2024.10-blue?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Heroku](https://img.shields.io/badge/Deploy-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Docker](https://img.shields.io/badge/Deploy-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![NGINX](https://img.shields.io/badge/Server-NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Python-dotenv](https://img.shields.io/badge/Config-Python--dotenv-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django-environ](https://img.shields.io/badge/Config-Django--environ-3776AB?style=for-the-badge)
+![gunicorn](https://img.shields.io/badge/gunicorn-23.0.0-red?style=for-the-badge&logo=gunicorn)
+![packaging](https://img.shields.io/badge/packaging-24.2-red?style=for-the-badge)
+![psycopg2](https://img.shields.io/badge/psycopg2-2.9.10-orange?style=for-the-badge)
+![sqlparse](https://img.shields.io/badge/sqlparse-0.5.3-orange?style=for-the-badge)
+![typing_extensions](https://img.shields.io/badge/typing__extensions-4.12.2-lightgrey?style=for-the-badge)
+![tzdata](https://img.shields.io/badge/tzdata-2025.1-lightgrey?style=for-the-badge)
+![whitenoise](https://img.shields.io/badge/whitenoise-6.9.0-lightgrey?style=for-the-badge)
+
 
 
 ## Requirements.txt
@@ -159,10 +185,15 @@ By using progressive personality/like matching system the app encourages users t
 [![GitHub](https://img.shields.io/badge/GitHub-enrightc-181717?style=for-the-badge&logo=github)](https://github.com/enrightc)[![Charlie Enright's LinkedIn](https://img.shields.io/badge/LinkedIn-Charlie_Enright-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/charlie-enright-54443a46/)
 
 [![Kakilian's GitHub](https://img.shields.io/badge/GitHub-Kakilian-181717?style=for-the-badge&logo=github)](https://github.com/kakilian)[![Katarina Kilian's LinkedIn](https://img.shields.io/badge/LinkedIn-Katarina_Kilian-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katarina-kilian-645242313/)
+
 [![DavidRC-projects' GitHub](https://img.shields.io/badge/GitHub-DavidRC--projects-181717?style=for-the-badge&logo=github)](https://github.com/DavidRC-projects)[![David Carr's LinkedIn](https://img.shields.io/badge/LinkedIn-David_Carr-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-carr-9a71a1312/)
+
 [![Iliana Marquez's GitHub](https://img.shields.io/badge/GitHub-Iliana--Marquez-181717?style=for-the-badge&logo=github)](https://github.com/iliana-marquez)[![Iliana Marquez's LinkedIn](https://img.shields.io/badge/LinkedIn-Iliana_Marquez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iliana-marquez-3b6795339/)
+
 [![Mildred-prog's GitHub](https://img.shields.io/badge/GitHub-Mildred--prog-181717?style=for-the-badge&logo=github)](https://github.com/mildred-prog)[![Mildred Aneke's LinkedIn](https://img.shields.io/badge/LinkedIn-Mildred_Aneke-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mildred-aneke-3920241b8/)
+
 [![Elvisthegreat's GitHub](https://img.shields.io/badge/GitHub-Elvisthegreat-181717?style=for-the-badge&logo=github)](https://github.com/Elvisthegreat)[![Elvis Blessing Eunice's LinkedIn](https://img.shields.io/badge/LinkedIn-Elvis_Blessing-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvisblessingeunice-software-dev/)
+
 [![Krishna0890227's GitHub](https://img.shields.io/badge/GitHub-Krishna0890227-181717?style=for-the-badge&logo=github)](https://github.com/krishna0890227)
 
 
