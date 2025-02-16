@@ -1,3 +1,23 @@
+
+![Python](https://img.shields.io/badge/Python-3.8.5-blue.svg)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)
+![HTML](https://img.shields.io/badge/HTML-5-orange.svg)
+![Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg)
+![Heroku](https://img.shields.io/badge/Heroku-deployed-430098.svg)
+
+TEAM NAME: The Love Sparks -  Because great matches create sparks. 
+APP NAME: Ignite - Highlighting how great matches create sparks
+
+## ![Overview](https://img.shields.io/badge/Overview-Discovery-orange?style=for-the-badge)
+
+**Ingnite** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
+
+## ![AIM](https://img.shields.io/badge/AIM-meaningfulCONNECTIONS-blue?style=for-the-badge)
+
+To revolutionize online dating by prioritizing meaningful connections over superficial swiping.
+By using progressive personality/like matching system the app encourages users to engage with potential partners based on compatibility rather than appearance alone.
+
 ## ![User Stories](https://img.shields.io/badge/User_Stories-Read_More-purple?style=for-the-badge)
 
 ### ![First Time Users](https://img.shields.io/badge/First_Time_Users-Start_Here-green?style=for-the-badge)
@@ -6,14 +26,29 @@
 
 - As a first time user: I want to have an overview of what the date app offers (easily grasp the concept of the app) and be able to sign in to get matched.
   * Acceptance Criteria:
-      * Landing page with a clear overview for first time users
-      * Button to sign in (link to registration form)
-      * About link 
+      * Landing page with a clear overview for first time users.
+      * Button to sign in (link to registration form).
+      * About link.
 
 ### Registration Form
 
 - As a first time user, I want to easily register and create a profile (account) so that I can start searching for matches.
   * Acceptance Criteria: 
+      * Registration Form.
+      * Inputs to write my Personal Details.
+      * First Name, Last Name, Alias, Location, Birthdate, Email, Password (password confirmation).
+      * Checkboxes / Select inputs  to select my preferences.
+      * Simple quiz to establish personality/likes/hobbies (three questions?).
+      * Questions with checkbox to select answers.
+
+### Email registration / verification
+
+- As a first time user, I want to verify my email so that I can ensure my account is secure.
+    * Acceptance Criteria:
+      * Send email with link to verify or authenticate account.
+      * After clicking link in email you get access to your new match app profile and matches.
+
+ * Acceptance Criteria: 
       * Registration Form
       * Inputs to write my Personal Details
       * First Name, Last Name, Alias, Location, Birthdate, Email, Password (password confirmation) 
@@ -27,8 +62,6 @@
     * Acceptance Criteria:
       * Send email with link to verify or authenticate account.
       * After clicking link in email you get access to your new match app profile and matches
-
-
 
 ## ![Features](https://img.shields.io/badge/Features-Explore-blueviolet?style=for-the-badge)
 
@@ -131,4 +164,7 @@
 [![Mildred-prog's GitHub](https://img.shields.io/badge/GitHub-Mildred--prog-181717?style=for-the-badge&logo=github)](https://github.com/mildred-prog)[![Mildred Aneke's LinkedIn](https://img.shields.io/badge/LinkedIn-Mildred_Aneke-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mildred-aneke-3920241b8/)
 [![Elvisthegreat's GitHub](https://img.shields.io/badge/GitHub-Elvisthegreat-181717?style=for-the-badge&logo=github)](https://github.com/Elvisthegreat)[![Elvis Blessing Eunice's LinkedIn](https://img.shields.io/badge/LinkedIn-Elvis_Blessing-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvisblessingeunice-software-dev/)
 [![Krishna0890227's GitHub](https://img.shields.io/badge/GitHub-Krishna0890227-181717?style=for-the-badge&logo=github)](https://github.com/krishna0890227)
+
+
+
 
