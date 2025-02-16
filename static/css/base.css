@@ -151,7 +151,7 @@ p {
 
 /* Match Page (find_a_match) */
 #match-page {
-  background-color: var(--clr--primary-bg);
+  background-color: var(--clr-accent-colour);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -166,6 +166,7 @@ p {
   width: 85vw;
   height: 80vh;
 }
+
 #match-page .category {
   position: absolute;
   transform: translateY(50%) scale(1) rotate(-2deg);
@@ -173,6 +174,7 @@ p {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.594);
   transition: all 0.4s ease-in-out;
 }
+
 #match-page .category img {
   width: 85vw;
   border-radius: inherit;
@@ -189,7 +191,6 @@ p {
   z-index: 2 !important;
 }
 
-
 /* Adjust Stacking Effect */
 #match-page .stacked {
   transform: translateY(52%) rotate(-4deg);
@@ -202,7 +203,6 @@ p {
   z-index: 4 !important;
 } 
 
-/* Button Styling */
 #match-page .action-buttons button {
   z-index: 5;
 }
