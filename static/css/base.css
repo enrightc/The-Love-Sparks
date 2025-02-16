@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: var(--text-paragraph);
 }
 
@@ -149,8 +149,21 @@ p {
   color: var(--clr-bg-colour-dark);
 }
 
+/* Match Page (find_a_match) */
 
+#match-page {
+  background-color: var(--clr--secondary-bg);
+  padding: 1rem;
+}
 
+#match-page .category img {
+  width: 100%;
+}
+
+#match-page .action-buttons {
+  padding-top: 1rem;
+  justify-content: center;
+}
 
 
 /* Footer */
@@ -166,4 +179,5 @@ p {
   color: var(--text-colour-dark);
   margin-right: 10px;
   font-size: 2.5rem;
+  margin-top: 1rem
 }

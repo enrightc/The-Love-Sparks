@@ -5,5 +5,32 @@
 
 {% include 'includes/navbar.html' %}
 
+<!-- Main Section -->
+<div id="match-page">
+
+    <div class="container-fluid g-0">
+        <!-- Display for Category: Vibe? -->
+        <div class="category" id="categoryOne">
+            <img src="https://images.pexels.com/photos/801863/pexels-photo-801863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Print caption of the displayed photo">
+        </div>
+        <!-- Display for Category: Interests? -->
+        <div class="category" id="categoryTwo">
+            <img src="https://images.pexels.com/photos/673018/pexels-photo-673018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Print caption of the displayed photo">
+        </div>
+        <!-- Display for Category: Values? -->
+        <div class="category" id="categoryThree">
+            <img src="https://images.pexels.com/photos/4613879/pexels-photo-4613879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Print caption of the displayed photo">
+        </div>
+    </div>
+
+    <div class="container-fluid action-buttons text-center">
+        <button class="btn btn-dark buttonfont mx-2" id="reveal-profile">Fire Up!</button>
+        <button class="btn btn-dark buttonfont mx-2 buttonfont"  id="next-match">Another Spark</button>
+    </div>
+
+
+</div>
+
+{% include 'includes/footer.html' %}
 
 {% endblock %}
